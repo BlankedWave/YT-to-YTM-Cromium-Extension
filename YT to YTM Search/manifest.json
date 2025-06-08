@@ -1,0 +1,21 @@
+{
+  "manifest_version": 3,
+  "name": "YouTube to YouTube Music",
+  "version": "1.1",
+  "description": "Open YouTube videos in YouTube Music (searches for music-only version).",
+  "permissions": [
+    "contextMenus",
+    "tabs",
+    "activeTab",
+    "scripting"
+  ],
+  "background": {
+    "service_worker": "background.js"
+  },
+  "host_permissions": [
+    "*://*.youtube.com/*"
+  ],
+  "action": {
+    "default_title": "Open in YouTube Music"
+  }
+}
