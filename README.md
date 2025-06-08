@@ -29,8 +29,8 @@ This repo contains **two versions** of a lightweight Chromium extension that hel
 
 4. Click **"Load unpacked"** and select the folder:
 
-   * `YT-to-YTM-Links/` to install the version that opens the same video in YT Music.
-   * `YT-to-YTM-Search/` to install the version that searches for the song in YT Music.
+   * `YT-to-YTM-Links` to install the version that opens the same video in YT Music.
+   * `YT-to-YTM-Search` to install the version that searches for the song in YT Music.
 
 5. Right-click on any YouTube link or video page and click:
 
@@ -51,11 +51,11 @@ This repo contains **two versions** of a lightweight Chromium extension that hel
 ### 📁 Folder Structure
 
 ```
-YT-to-YTM-Links/
+YT-to-YTM-Links
 ├── background.js
 ├── manifest.json
 
-YT-to-YTM-Search/
+YT-to-YTM-Search
 ├── background.js
 ├── manifest.json
 ```
